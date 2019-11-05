@@ -1,0 +1,1 @@
+{"version":3,"file":"test-two.module.d.ts","sources":["C:/git/github/angular-compat-compiler-bug/repro-app/test-package/test-two/test-two.module.d.ts"],"sourcesContent":["export declare class TestTwoModule {\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AACA;"}

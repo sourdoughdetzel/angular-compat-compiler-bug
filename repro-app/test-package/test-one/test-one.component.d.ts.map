@@ -1,0 +1,1 @@
+{"version":3,"file":"test-one.component.d.ts","sources":["C:/git/github/angular-compat-compiler-bug/repro-app/test-package/test-one/test-one.component.d.ts"],"sourcesContent":["import { OnInit } from '@angular/core';\r\nexport declare class TestOneComponent implements OnInit {\r\n    constructor();\r\n    ngOnInit(): void;\r\n}\r\n"],"names":[],"mappings":"AAAA;;AACA;;;;;AAGA;"}

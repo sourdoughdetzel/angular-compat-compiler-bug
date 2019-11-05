@@ -1,0 +1,46 @@
+{
+  "name": "test-package",
+  "version": "4.7.1",
+  "peerDependencies": {
+    "@angular/animations": "^7.2.8",
+    "@angular/cdk": "^7.3.7",
+    "@angular/common": "^7.2.8",
+    "@angular/compiler": "^7.2.8",
+    "@angular/core": "^7.2.8",
+    "@angular/forms": "^7.2.8",
+    "@angular/platform-browser": "^7.2.8",
+    "@angular/platform-browser-dynamic": "^7.2.8",
+    "@chatham/pattern-library": "^14.0.1",
+    "@chatham/cf-event-dispatcher": "^1.0.1",
+    "core-js": "^2.6.5",
+    "lodash": "^4.17.11",
+    "rxjs": "^6.4.0",
+    "zone.js": "^0.8.29"
+  },
+  "devDependencies": {
+    "ts-mocks": "^2.3.2"
+  },
+  "main": "bundles/test-package.umd.js",
+  "module": "fesm5/test-package.js",
+  "es2015": "fesm2015/test-package.js",
+  "esm5": "esm5/test-package.js",
+  "esm2015": "esm2015/test-package.js",
+  "fesm5": "fesm5/test-package.js",
+  "fesm2015": "fesm2015/test-package.js",
+  "typings": "test-package.d.ts",
+  "metadata": "test-package.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/test-package.js",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/test-package.js",
+  "__processed_by_ivy_ngcc__": {
+    "fesm2015": "9.0.0-rc.0",
+    "es2015": "9.0.0-rc.0",
+    "typings": "9.0.0-rc.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

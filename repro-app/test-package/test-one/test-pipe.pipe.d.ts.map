@@ -1,0 +1,1 @@
+{"version":3,"file":"test-pipe.pipe.d.ts","sources":["C:/git/github/angular-compat-compiler-bug/repro-app/test-package/test-one/test-pipe.pipe.d.ts"],"sourcesContent":["import { PipeTransform } from '@angular/core';\r\nexport declare class TestPipePipe implements PipeTransform {\r\n    transform(): any;\r\n}\r\n"],"names":[],"mappings":"AAAA;;AACA;;;;AAEA;"}
